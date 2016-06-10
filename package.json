@@ -1,0 +1,56 @@
+{
+  "name": "revir-router",
+  "version": "0.0.1",
+  "description": "Routing with Revir",
+  "main": "src/Router.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/talee/revir-router.git"
+  },
+  "keywords": [
+    "revir",
+    "router"
+  ],
+  "author": "Thomas Lee <tleehoc@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talee/revir-router/issues"
+  },
+  "homepage": "https://github.com/talee/revir-router#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^6.0.4",
+    "babel-plugin-transform-function-bind": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.12.10",
+    "browserify": "^13.0.1",
+    "del": "^2.2.0",
+    "eslint": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^2.0.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-mocha": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "jscs": "^3.0.3",
+    "loglevel": "^1.4.0",
+    "map-stream": "0.0.6",
+    "should": "^8.4.0",
+    "should-sinon": "0.0.5",
+    "sinon": "^1.17.4",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "engines": {
+    "node": "^4.0.0",
+    "npm": "^3.8.0"
+  },
+  "dependencies": {
+    "revir": "0.1.0-alpha"
+  }
+}
