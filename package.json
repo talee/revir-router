@@ -29,6 +29,7 @@
     "babelify": "^7.3.0",
     "browser-sync": "^2.12.10",
     "browserify": "^13.0.1",
+    "connect-history-api-fallback": "^1.2.0",
     "del": "^2.2.0",
     "eslint": "^2.11.1",
     "gulp": "^3.9.1",
@@ -51,6 +52,7 @@
     "npm": "^3.8.0"
   },
   "dependencies": {
+    "director": "^1.2.8",
     "revir": "0.1.0-alpha"
   }
 }

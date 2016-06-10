@@ -1,6 +1,7 @@
 import babelify from 'babelify'
 import browserSync from 'browser-sync'
 import browserify from 'browserify'
+import historyApiFallback from 'connect-history-api-fallback'
 import eslint from 'gulp-eslint'
 import del from 'del'
 import gulp from 'gulp'
@@ -62,7 +63,11 @@ const tasks = {
   browserSync() {
     browserSync.init({
       open: false,
-      server: 'dist/'
+      // Serve all routes to index.html in dist
+      server: {
+        baseDir: 'dist/',
+        middleware: [historyApiFallback()]
+      }
     })
   },
 
